@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/coinspacex-admin-new/static/css/main.8c8b27cf.chunk.css",
-    "main.js": "/coinspacex-admin-new/static/js/main.1d78a3d9.chunk.js",
-    "main.js.map": "/coinspacex-admin-new/static/js/main.1d78a3d9.chunk.js.map",
+    "main.js": "/coinspacex-admin-new/static/js/main.d927789c.chunk.js",
+    "main.js.map": "/coinspacex-admin-new/static/js/main.d927789c.chunk.js.map",
     "runtime-main.js": "/coinspacex-admin-new/static/js/runtime-main.60b38bf1.js",
     "runtime-main.js.map": "/coinspacex-admin-new/static/js/runtime-main.60b38bf1.js.map",
     "static/js/2.355e0adf.chunk.js": "/coinspacex-admin-new/static/js/2.355e0adf.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.60b38bf1.js",
     "static/js/2.355e0adf.chunk.js",
     "static/css/main.8c8b27cf.chunk.css",
-    "static/js/main.1d78a3d9.chunk.js"
+    "static/js/main.d927789c.chunk.js"
   ]
 }
