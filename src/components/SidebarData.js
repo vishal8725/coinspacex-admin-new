@@ -93,6 +93,26 @@ export const SidebarData = [
     ]
   },
   {
+    title: 'Teams',
+    path: '/teams',
+    icon: <IoIcons.IoIosPaper />,
+    iconClosed: <RiIcons.RiArrowDownSFill />,
+    iconOpened: <RiIcons.RiArrowUpSFill />,
+
+    subNav: [
+      {
+        title: 'My Team',
+        path: '/teams/myteam',
+        cName: 'sub-nav'
+      },
+      {
+        title: 'My DLB',
+        path: '/teams/dlb',
+        cName: 'sub-nav'
+      }
+    ]
+  },
+  {
     title: 'Others',
     path: '/others',
     icon: <IoIcons.IoIosPaper />,
@@ -116,5 +136,10 @@ export const SidebarData = [
         cName: 'sub-nav'
       }
     ]
-  }
+  },
+  {
+    title: "Logout",
+    path: "/logout",
+    icon: <MdDashboard />
+  },
 ];

@@ -1,0 +1,362 @@
+.dashboard {
+  width: 86%;
+  height: 135vh;
+  margin-left: 152px;
+  background-color: #171e25;
+  font-family: sans-serif;
+}
+.header {
+  padding-left: 100px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-top: 5px;
+  letter-spacing: 1px;
+}
+.container1 {
+  width: 95%;
+  height: 40vh;
+  margin-top: 30px;
+  border-radius: 5px;
+  margin: 25px auto;
+  background-color: #212b35;
+  padding: 25px 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.royal_pack {
+  border: 1px solid rgb(100, 100, 100);
+  width: 150px;
+  background-color: #171e25;
+  height: 150px;
+  border-radius: 5px;
+}
+.basic_info {
+  border-radius: 5px;
+  width: 85%;
+}
+.wallet_address {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: rgb(196, 196, 196);
+}
+.other_info {
+  height: 5vh;
+  margin-top: 10px;
+  display: flex;
+}
+.user_icon {
+  margin-right: 7px;
+}
+.name {
+  width: 80px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: rgb(180, 180, 180);
+  transition: 0.1s linear;
+  line-height: 35px;
+  cursor: pointer;
+}
+.name:hover {
+  color: #009dc4;
+}
+.hash_info {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: rgb(180, 180, 180);
+  transition: 0.1s linear;
+  line-height: 35px;
+  cursor: pointer;
+}
+.hash_info:hover {
+  color: #009dc4;
+}
+.hash {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: rgb(180, 180, 180);
+  transition: 0.1s linear;
+  line-height: 35px;
+  cursor: pointer;
+  margin-left: 12px;
+}
+.hash:hover {
+  color: #009dc4;
+}
+
+.btn {
+  width: 100px;
+  height: 35px;
+  margin: 5px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s linear;
+}
+.buy {
+  width: 120px;
+  background-color: #6d57fa;
+}
+.buy:hover {
+  background-color: #3b28b8;
+}
+.upgrade {
+  background-color: #70a1ff;
+}
+.upgrade:hover {
+  background-color: #1e90ff;
+}
+.cxp {
+  background-color: #171e25;
+}
+.cxp:hover {
+  background-color: #32383d;
+}
+
+.section3 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  margin-top: 12px;
+}
+
+.package_info, .earning_info, .team_info {
+  width: 120px;
+  height: 60px;
+  border: 1px dotted rgb(168, 168, 168);
+  border-radius: 5px;
+  margin-right: 15px;
+  padding: 9px;
+  color: #f9ca24;
+  font-size: 0.9rem;
+}
+.soicial_media {
+  padding-top: 5px;
+  margin-left: 15px;
+}
+.facebook {
+  margin: 10px;
+  width: 40px;
+  height: 40px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background-color: #0556b323;
+  cursor: pointer;
+  transition: 0.2s linear;
+  color: #0556b3;
+}
+.facebook:hover {
+  background-color: #0556b3;
+  color: white;
+}
+
+.twitter {
+  margin: 10px;
+  width: 40px;
+  height: 40px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background-color: #2688f833;
+  cursor: pointer;
+  transition: 0.2s linear;
+  color: #2688f8;
+}
+.twitter:hover {
+  background-color: #2688f8;
+  color: white;
+}
+
+.whatsapp {
+  margin: 10px;
+  width: 40px;
+  height: 40px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background-color: #00e07027;
+  cursor: pointer;
+  transition: 0.2s linear;
+  color: #00e070;
+}
+.whatsapp:hover {
+  background-color: #00e070;
+  color: white;
+}
+
+.telegram {
+  margin: 10px;
+  width: 40px;
+  height: 40px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background-color: #009dc421;
+  cursor: pointer;
+  transition: 0.2s linear;
+  color: #2688f8;
+}
+.telegram:hover {
+  background-color: #2688f8;
+  color: white;
+}
+
+.text {
+  color: white;
+}
+.container2 {
+  width: 100%;
+  height: 60vh;
+  padding: 25px 40px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.box1 {
+  width: 550px;
+  height: 550px;
+  border-radius: 5px;
+  margin-left: 12px;
+  background-color: #272e35;
+}
+.box1_header {
+  border-radius: 5px;
+  height: 250px;
+  background: #08d66f;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #21be70, #08d66f);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #21be70, #08d66f);
+}
+.earning_header {
+  padding: 15px;
+  font-weight: bold;
+  color: rgb(223, 223, 223);
+  letter-spacing: 1px;
+}
+.total_earning_header {
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: rgb(223, 223, 223);
+}
+.amount {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 700;
+}
+.inner_box {
+  width: 350px;
+  margin: 1px auto;
+  height: 400px;
+  margin-top: 25px;
+  background-color: #191d22;
+  border-radius: 5px;
+}
+.comp1 {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.comp1_header {
+  font-size: 1rem;
+  color: rgb(49, 49, 255);
+}
+.comp1_text {
+  font-size: 0.8rem;
+  color: rgb(131, 131, 131);
+}
+.comp1_amount {
+  color: rgb(250, 215, 16);
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding-top: 7px;
+}
+.amount_icon {
+  color: rgb(112, 112, 112);
+  margin-left: 10px;
+  cursor: pointer;
+}
+.box2 {
+  width: 250px;
+  border-radius: 5px;
+  margin-left: 7px;
+  padding: 20px;
+  height: 300px;
+  background-color: #272e35;
+}
+.size {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+.team_size {
+  color: rgb(117, 117, 117);
+  font-weight: 600;
+  padding-top: 10px;
+}
+.team_icon {
+  font-size: 3rem;
+  padding-left: 25px;
+  padding-top: 15px;
+  color: #4834d4;
+}
+.inner_box2, .inner_box3 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 18px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: rgb(199, 199, 199);
+}
+.symbol, .symbo2 {
+  border: 2px solid #3867d6;
+  height: 1px;
+  width: 9px;
+  background-color: #3867d6;
+  margin-top: 7px;
+}
+.symbo2 {
+  border: 2px solid #20bf6b;
+  background-color: #08d66f;
+  margin-left: 2px;
+}
+.box3 {
+  width: 200px;
+  border-radius: 5px;
+  margin-left: 7px;
+  padding: 20px;
+  height: 300px;
+  font-weight: 600;
+  background-color: #272e35;
+}
+.coin {
+  font-size: 1.8rem;
+}
+.coin_info {
+  color: rgb(97, 96, 96);
+  font-weight: 600;
+  font-size: 1rem;
+  padding-top: 9px;
+}
+.box4 {
+  width: 550px;
+  height: 550px;
+  border-radius: 5px;
+  margin-left: 7px;
+  background-color: #272e35;
+}
+.announcement {
+  padding: 15px;
+  font-weight: 600;
+  color: rgb(221, 221, 221);
+}
+.announcement_info {
+  padding-left: 15px;
+  font-size: 0.9rem;
+  color: rgb(202, 202, 202);
+  padding-right: 10px;
+  line-height: 21px;
+  font-weight: 500;
+}
